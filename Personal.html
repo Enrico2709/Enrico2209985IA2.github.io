@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <style>
+        /* Common styles for both desktop and mobile */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .accent-color {
+            color: #fff;
+        }
+
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Section styles */
+        .content-section {
+            background-color: #f6f6f6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        .section-title {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            color: #0073e6;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+
+            .content-section {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="accent-color">Personal Page</h1>
+        <img src="img/Personal Page.jpg" alt="My test 2" style="max-width: 50%; height: auto;">
+        <p>Welcome to my personal page where you can get to know me better. Discover my personality traits, interests, and the things that make me tick.</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="#personal-page">Personal Page</a>
+        <a href="#personality-assessment">Personality Assessment</a>
+    </nav>
+
+    <section id="personal-page" class="content-section">
+        <h2 class="section-title">Explore My Personalities</h2>
+        <p>I am a highly motivated and inquisitive individual with a passion for learning and growth. I am always looking for new challenges and opportunities to expand my knowledge and skills.</p>
+        <p>One of my favorite quotes that resonates deeply with me is:</p>
+        <blockquote style="background-color: #fff; border-left: 4px solid #0073e6; padding: 10px; margin: 10px 0;">
+            <span style="color: #ff6600;">The purpose of our lives is to be happy.</span> - Dalai Lama
+        </blockquote>
+        <p>Here's a glimpse of what makes me tick:</p>
+        <ul>
+            <li><strong class="interactive">Traits:</strong> Inquisitive, compassionate, and a perpetual dreamer.</li>
+            <li><strong class="interactive">Emotions:</strong> I cherish joy, serenity, and wonder.</li>
+            <li><strong class="interactive">Likes:</strong> Exploring hidden gems, capturing moments through photography, and immersing myself in the world of books.</li>
+            <li><strong class="interactive">Dislikes:</strong> Negativity and closed-mindedness.</li>
+            <li><strong class="interactive">Hobbies:</strong> Writing poetry, stargazing, and hiking through nature's wonders.</li>
+        </ul>
+        <p>My strongest trait and emotion, along with my hobbies, have a significant impact on my school/academic life. Being inquisitive drives me to explore subjects deeply, while my compassion helps me collaborate effectively with classmates. My love for learning aligns with my academic pursuits.</p>
+    </section>
+
+    <section id="personality-assessment" class="content-section">
+        <h2 class="section-title">Personality Assessment</h2>
+        <img src="img/Personality test.jpg" alt="Personality Test Results" style="max-width: 100%; height: auto;">
+        <h4 class="section-subtitle">Reflection:</h4>
+        <p>I recently took the <a href="https://www.keirsey.com/" style="color: #0073e6; text-decoration: underline;" target="_blank">Keirsey Temperament Sorter</a> personality test to gain insights into my personality. After analyzing the results, I found that my personality type aligns with that of a <strong class="interactive">Guardian</strong>.</p>
+        <p>In general, personality tests like Keirsey's provide valuable frameworks for understanding human behavior and interactions. They can be insightful tools for self-discovery and personal growth.</p>
+        <p>As a <strong class="interactive">Guardian</strong>, I tend to value stability, responsibility, and tradition. This insight into my personality will help me better understand my strengths and areas for growth, allowing me to make informed decisions in various aspects of life.</p>
+    </section>
+</body>
+</html>

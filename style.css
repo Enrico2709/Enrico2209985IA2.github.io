@@ -1,0 +1,139 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Style the header section */
+header {
+  text-align: center;
+  background-color: #0077b6; /* Dark Blue background */
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #0077b6; /* Dark Blue background */
+  margin: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  font-size: 1.2rem; /* Adjust font size */
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6600; /* Orange color on hover */
+}
+
+/* Style the main content section */
+main {
+  padding: 20px;
+}
+
+/* Style the welcome section */
+#home {
+  text-align: center;
+}
+
+#profile-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+#home p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+/* Style links */
+a.external-link {
+  color: #ff6600; /* Orange color for external links */
+}
+
+a.external-link:hover {
+  color: #333;
+}
+
+a.internal-link {
+  color: #ff6600; /* Orange color for internal links */
+}
+
+a.internal-link:hover {
+  color: #333;
+}
+
+/* Style the contact section */
+#contact {
+  text-align: center;
+}
+
+#contact-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  background-color: #0077b6; /* Dark Blue background */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.social-media-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.social-media-link:hover {
+  color: #2961ab; /* Orange color on hover */
+}

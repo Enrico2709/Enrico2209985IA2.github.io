@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a portfolio website for Enrico Ennis.">
+  <title>Your Portfolio Website</title>
+  <!-- Add the CSS link here -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Reset some default browser styles */
+    body, h1, h2, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Set a background color for the entire page */
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Style the header section */
+    header {
+      text-align: center;
+      background-color: #0077b6; /* Dark Blue background */
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    /* Style the navigation menu */
+    nav {
+      background-color: #0077b6; /* Dark Blue background */
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff; /* White text color */
+      font-weight: bold;
+      font-size: 1.2rem; /* Adjust font size */
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6600; /* Orange color on hover */
+    }
+
+    /* Style the main content section */
+    main {
+      padding: 20px;
+    }
+
+    /* Style the welcome section */
+    #home {
+      text-align: center;
+    }
+
+    #profile-image {
+      max-width: 200px; /* Adjust the size as needed */
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #home p {
+      font-size: 1.1rem;
+      margin-top: 20px;
+    }
+
+    /* Style links */
+    a.external-link {
+      color: #ff6600; /* Orange color for external links */
+    }
+
+    a.external-link:hover {
+      color: #333;
+    }
+
+    a.internal-link {
+      color: #ff6600; /* Orange color for internal links */
+    }
+
+    a.internal-link:hover {
+      color: #333;
+    }
+
+    /* Style the contact section */
+    #contact {
+      text-align: center;
+    }
+
+    #contact-image {
+      max-width: 200px; /* Adjust the size as needed */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Style the footer */
+    footer {
+      text-align: center;
+      background-color: #0077b6; /* Dark Blue background */
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    .social-media-links {
+      list-style: none;
+      padding: 0;
+    }
+
+    .social-media-links li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .social-media-link {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.3rem;
+    }
+
+    .social-media-link:hover {
+      color: #ff6600; /* Orange color on hover */
+    }
+  </style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Enrico Ennis</h1>
+    <h2>Your Portfolio Website</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="professional.html">Professional</a></li>
+      <li><a href="personal.html">Personal</a></li>
+      <li><a href="personal-development.html">Personal Development</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <div>
+        <img src="img/Enrico Ennis.jpg" alt="Enrico Ennis - Profile Image" id="profile-image">
+      </div>
+      <p>Welcome to my portfolio website. I'm passionate about Computer Science, and I'm excited to share my journey and accomplishments with you. Whether you're here to learn more about my professional experience, explore my personal interests, or join me on my path of personal development, I hope you find inspiration and valuable insights during your visit. Feel free to navigate through the sections to get to know me better. If you have any questions or would like to connect, don't hesitate to reach out. Thank you for stopping by!</p>
+      <a href="https://www.example.com" target="_blank" class="external-link" title="Visit Example.com">Example.com</a>
+      <a href="#contact" class="internal-link" title="Jump to the Contact section">Contact Section</a>
+    </section>
+     <section id="contact">
+  <h2>Contact</h2>
+  <p>You can contact me via email By clicking on my image here:</p>
+  <a href="mailto:ennisenrico@gmail.com?subject=Hello">
+    <img src="img/Enrico Ennis.jpg" alt="Enrico Ennis - Contact" id="contact-image">
+  </a>
+</section>
+
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Enrico Ennis</p>
+    <ul class="social-media-links">
+      <li><a href="https://twitter.com/ennisenrico" target="_blank" class="social-media-link" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/ennisenrico" target="_blank" class="social-media-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://www.github.com/ennisenrico" target="_blank" class="social-media-link" title="GitHub"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://wa.me/8764741578" target="_blank" class="whatsapp-link" rel="noreferrer" title="WhatsApp me"><i class="fab fa-whatsapp"></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
